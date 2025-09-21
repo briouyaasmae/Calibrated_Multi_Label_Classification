@@ -1,0 +1,420 @@
+{
+  "project_name": "JBI-Mental-Health",
+  "created_at_utc": "2025-09-20 20:58:32Z",
+  "files": [
+    {
+      "src": "/kaggle/working/train_tailboost_best.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/train_tailboost_best.py",
+      "size": 48027,
+      "sha256": "55761471a79a6fb757e84dd2d2a1b77061c701fa35052f45f120b1b7a5f9954e"
+    },
+    {
+      "src": "/kaggle/working/run_end_to_end.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/run_end_to_end.py",
+      "size": 8108,
+      "sha256": "3288333cd840b71ab75df2179bef9253519474cb52dd44126a2b328d5ae7346b"
+    },
+    {
+      "src": "/kaggle/working/run_depr_jbi_eval_plus.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/run_depr_jbi_eval_plus.py",
+      "size": 24770,
+      "sha256": "28bb1f6b0563bf387d65e68fb02b0670aa9f0f1a4243b7229ef0877504ba053d"
+    },
+    {
+      "src": "/kaggle/working/calibrate_model.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/calibrate_model.py",
+      "size": 19294,
+      "sha256": "425b079f15d9c1569c0514067b39419fd2c1e5d81290024dc2cfda11411c1060"
+    },
+    {
+      "src": "/kaggle/working/optimize_primary_threshold.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/optimize_primary_threshold.py",
+      "size": 6712,
+      "sha256": "93e26abd654055b41b83e2ad358059d35cf1f0282a586bd1f666bb7d9bcc715f"
+    },
+    {
+      "src": "/kaggle/working/retune_calibrated_safety_pconstr.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/retune_calibrated_safety_pconstr.py",
+      "size": 4651,
+      "sha256": "483f608d3178db7f601941acaee0d63933ad1ffccd76febd6ba31325096ceb4b"
+    },
+    {
+      "src": "/kaggle/working/make_jbi_artifacts.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/make_jbi_artifacts.py",
+      "size": 17466,
+      "sha256": "64acc936b2e2b98fffa4317f75113be6a57d2b2856a986e0d25c352fad9ee3d8"
+    },
+    {
+      "src": "/kaggle/working/make_review_bundle.py",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/code/make_review_bundle.py",
+      "size": 10165,
+      "sha256": "f0c9ab7338af81d3d58f2672a01fc34e940dce512fa17e6ef55e8320c16dcda1"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/final_metrics_test.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/final_metrics_test.json",
+      "size": 349,
+      "sha256": "a3ae787f283a685262e84b4fb6be19c6e78790089877da8e333382e7407d37e5"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/summary.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/summary.json",
+      "size": 1879,
+      "sha256": "b4e8892df204b7c7fe21b044a10fdcfc39ea8cfe4ddde8cd845d4cf38758dc98"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/thresholds.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/thresholds.json",
+      "size": 251,
+      "sha256": "f2621083520661d8f1fae7a531e3bc2fb42552ff5b60648d42e15a82ea57306c"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/label_order.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/label_order.json",
+      "size": 137,
+      "sha256": "4a891bd46a112e17dcccd4531afac210cc0f3cc335f15b878377e4c3d9f4b9a6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/per_label_report.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/per_label_report.csv",
+      "size": 732,
+      "sha256": "33f1908bf620020d88914e0decc786b054a664ebf47e7342b18297184be1c3ae"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/ops_safety_fdr.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/ops_safety_fdr.json",
+      "size": 266,
+      "sha256": "7f1ad7a5df5da96767323c2c0bed4061f43222bf8e82408bf397262b258f8e57"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/primary_label_ci.json",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/primary_label_ci.json",
+      "size": 325,
+      "sha256": "963b6eeb15d2098d986cde9d367c860ab06908fb62c827259cb435e0b1b9c460"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_evaluation.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_evaluation.csv",
+      "size": 620,
+      "sha256": "01ddf73cf7eba220a5fe2555a5cf736c079218cbf767c8395e7d316637d2fae1"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/safety_calibrated.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/safety_calibrated.csv",
+      "size": 671,
+      "sha256": "f456e3c6b5011a2c0b4f4f94f2f43411b5641b8e7fc8b17252a32fcacf24d8b3"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/test_logits.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/test_logits.npy",
+      "size": 29120,
+      "sha256": "b0e977c0965df318e6a866bc3010987a4c895de443a75dfcfc86e66bbccb0e40"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/test_labels.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/test_labels.npy",
+      "size": 29120,
+      "sha256": "7d930d3f388947a9b0f4e272617fd1b2aeb20429f824bfba46626abbef4c7e63"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/test_mask.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/test_mask.npy",
+      "size": 29120,
+      "sha256": "ebc266276f91bb3be5fddbb34b3277df38e858e7f2658e71c42cbf72019f628a"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/val_logits.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/val_logits.npy",
+      "size": 29120,
+      "sha256": "011a91801f64d5ed0a6222bd51ef8edeefadad32b25f8af1ded5077501f66418"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/val_labels.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/val_labels.npy",
+      "size": 29120,
+      "sha256": "3985ebe8947b0b2458a7c94c1eb1617fa03d9aa0284d5057e48b11c52503fdee"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/val_mask.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/val_mask.npy",
+      "size": 29120,
+      "sha256": "ebc266276f91bb3be5fddbb34b3277df38e858e7f2658e71c42cbf72019f628a"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/tuned_thresholds.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/tuned_thresholds.npy",
+      "size": 160,
+      "sha256": "34874f2197690581280e891b58fd70855ea32a1e14f6497c46c7244547347fdf"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/test_probs_calibrated.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/test_probs_calibrated.npy",
+      "size": 58112,
+      "sha256": "544fefcbeb497addde305934bc60cd21731dfc260e2aa32f288f309f82762231"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/val_probs_calibrated.npy",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/val_probs_calibrated.npy",
+      "size": 58112,
+      "sha256": "3b5a077854c34c967f78c82a8e90c3e454c7bbd9bab583b0bfb4541bc4c565be"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/sadness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/sadness_calibration.png",
+      "size": 81651,
+      "sha256": "407646ff7cc9a1edf86ff64da8ed662df4b56d36a8edca36d32f1782a17fe45d"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "size": 77047,
+      "sha256": "a18f1027c249c2ac113d918572f42f04e6394a358054608fe357abf6fa8029ae"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/emptiness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/emptiness_calibration.png",
+      "size": 74429,
+      "sha256": "6acb6d84b579703aa80bfae1021f8334554d2d6f07d06f52111d475b8df64ce6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "size": 84912,
+      "sha256": "ff82ba6a53c720a95b79185611923279e2260437e1b55202fd629a53148caebb"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "size": 75077,
+      "sha256": "3a9e16f2162e31896a89d1876dee05779f5e61bd41085dd3d826c1412d435f6a"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "size": 78583,
+      "sha256": "42b7c705381dc3bec8caa0de539a6005f6b96ad39910bb3d81176e2068d0e0c6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/loneliness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/loneliness_calibration.png",
+      "size": 76283,
+      "sha256": "9eba98e88e3999444258b4f1c3eba286d9c6bc4bcb8b9126e41a13d4eb3ed779"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/anger_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/anger_calibration.png",
+      "size": 74671,
+      "sha256": "7974592397fb173fc1d74842d4d67183b721b305caac4ce6ae99a64ddbc24afc"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/sadness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/sadness_calibration.png",
+      "size": 81651,
+      "sha256": "407646ff7cc9a1edf86ff64da8ed662df4b56d36a8edca36d32f1782a17fe45d"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "size": 77047,
+      "sha256": "a18f1027c249c2ac113d918572f42f04e6394a358054608fe357abf6fa8029ae"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/emptiness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/emptiness_calibration.png",
+      "size": 74429,
+      "sha256": "6acb6d84b579703aa80bfae1021f8334554d2d6f07d06f52111d475b8df64ce6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "size": 84912,
+      "sha256": "ff82ba6a53c720a95b79185611923279e2260437e1b55202fd629a53148caebb"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "size": 75077,
+      "sha256": "3a9e16f2162e31896a89d1876dee05779f5e61bd41085dd3d826c1412d435f6a"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "size": 78583,
+      "sha256": "42b7c705381dc3bec8caa0de539a6005f6b96ad39910bb3d81176e2068d0e0c6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/loneliness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/loneliness_calibration.png",
+      "size": 76283,
+      "sha256": "9eba98e88e3999444258b4f1c3eba286d9c6bc4bcb8b9126e41a13d4eb3ed779"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/anger_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/anger_calibration.png",
+      "size": 74671,
+      "sha256": "7974592397fb173fc1d74842d4d67183b721b305caac4ce6ae99a64ddbc24afc"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/sadness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/sadness_calibration.png",
+      "size": 81651,
+      "sha256": "407646ff7cc9a1edf86ff64da8ed662df4b56d36a8edca36d32f1782a17fe45d"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/suicide_intent_calibration.png",
+      "size": 77047,
+      "sha256": "a18f1027c249c2ac113d918572f42f04e6394a358054608fe357abf6fa8029ae"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/emptiness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/emptiness_calibration.png",
+      "size": 74429,
+      "sha256": "6acb6d84b579703aa80bfae1021f8334554d2d6f07d06f52111d475b8df64ce6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/hopelessness_calibration.png",
+      "size": 84912,
+      "sha256": "ff82ba6a53c720a95b79185611923279e2260437e1b55202fd629a53148caebb"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/worthlessness_calibration.png",
+      "size": 75077,
+      "sha256": "3a9e16f2162e31896a89d1876dee05779f5e61bd41085dd3d826c1412d435f6a"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/brain_dysfunction_calibration.png",
+      "size": 78583,
+      "sha256": "42b7c705381dc3bec8caa0de539a6005f6b96ad39910bb3d81176e2068d0e0c6"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/loneliness_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/loneliness_calibration.png",
+      "size": 76283,
+      "sha256": "9eba98e88e3999444258b4f1c3eba286d9c6bc4bcb8b9126e41a13d4eb3ed779"
+    },
+    {
+      "src": "/kaggle/working/runs/depressionemo/jbi_eval_plus/safety_bh/calibration_plots/anger_calibration.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/results/safety_bh/calibration_plots/anger_calibration.png",
+      "size": 74671,
+      "sha256": "7974592397fb173fc1d74842d4d67183b721b305caac4ce6ae99a64ddbc24afc"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table4_Per_Label_Performance.tex",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table4_Per_Label_Performance.tex",
+      "size": 617,
+      "sha256": "744147c76536f3140a5b9b2feae0fe313a0b5a90880bd80636ca6d45ca4b9b75"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure1_Calibration_Improvement.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure1_Calibration_Improvement.png",
+      "size": 373833,
+      "sha256": "a7385165a46479bd1e20f89a5d2a3248a348e1246ec90cdb54e331521edd6b9e"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure1_Calibration_Improvement.pdf",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure1_Calibration_Improvement.pdf",
+      "size": 20019,
+      "sha256": "d41e0d6dfbe0f4459b699d59f21897f47d158fcbb2cdf5916bbc8b1b4e389320"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table1_Variant_Comparison.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table1_Variant_Comparison.csv",
+      "size": 395,
+      "sha256": "73c12f447928927eb2315d0d831970bc04b3aeb3a6829f2009546164fd3c34f2"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure2_Threshold_Optimization.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure2_Threshold_Optimization.png",
+      "size": 410450,
+      "sha256": "1633f9d20b96e527102d0d419ae39294b536a056fab29f5db8f84a72ecb27c15"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure2_Threshold_Optimization.pdf",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure2_Threshold_Optimization.pdf",
+      "size": 26637,
+      "sha256": "125a7d445238bcda105f089492362be1fe0af6250caef6c2da0092a299e475da"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure3_Framework_Overview.pdf",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure3_Framework_Overview.pdf",
+      "size": 16247,
+      "sha256": "6f1cbbdd6aa150ff7c29bb2a24523662504fe783878da0aa7c24d7122eed58d7"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table4_Per_Label_Performance.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table4_Per_Label_Performance.csv",
+      "size": 319,
+      "sha256": "c147e87c1c77ccb3e6e43e4ef2e7881d2288a3df86a06fae8c7c480d374d00e5"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Figure3_Framework_Overview.png",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/figures/Figure3_Framework_Overview.png",
+      "size": 191246,
+      "sha256": "0e8e4af1302f609ee0daf631718d1b322559a35ec042e3ddd352f1a3da2fecf2"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table3_Safety_Evaluation.tex",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table3_Safety_Evaluation.tex",
+      "size": 690,
+      "sha256": "05c86b984fa69577f6ca2819cf9e9904577898c9fc9a95d25c5a6e447391a572"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table1_Variant_Comparison.tex",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table1_Variant_Comparison.tex",
+      "size": 713,
+      "sha256": "9bb049f69be2c33deeefce5ac944afced8a7d998ae2a2daa92e1ec5457cd1862"
+    },
+    {
+      "src": "/kaggle/working/jbi_paper_figures_tables/Table3_Safety_Evaluation.csv",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/paper_tables/Table3_Safety_Evaluation.csv",
+      "size": 372,
+      "sha256": "9c6a5a32c5f04235025ab9ac0739693aaeb53a0e1e10150c7eff079ea08387f8"
+    },
+    {
+      "src": "logs/20250920_205445_41_pconstr_COMMIT.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205445_41_pconstr_COMMIT.log",
+      "size": 465,
+      "sha256": "e452669de7eeabc5949f6f0558b8e103572c2f439c2e7d40932ee0efa17a0ab0"
+    },
+    {
+      "src": "logs/20250920_205445_40_pconstr_check.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205445_40_pconstr_check.log",
+      "size": 275,
+      "sha256": "97907822e34522e552ac90346ee861a63cda0d3a96099dc08d1d97f175ebcc8d"
+    },
+    {
+      "src": "logs/20250920_205432_10_threshold_primary_broad.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205432_10_threshold_primary_broad.log",
+      "size": 616,
+      "sha256": "c7d4b91fb0e61119765bc9427cbd0431967807190e990a0e0d55b403a9a38890"
+    },
+    {
+      "src": "logs/20250920_205433_11_threshold_primary_narrow.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205433_11_threshold_primary_narrow.log",
+      "size": 615,
+      "sha256": "b0db480db30d483490d7b03f4549044ec40a212c3519b49485432a6d2720471c"
+    },
+    {
+      "src": "logs/20250920_205441_30_calibration_isotonic.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205441_30_calibration_isotonic.log",
+      "size": 1299,
+      "sha256": "d4aa5264d1572ee6e5fb51cba64a2756bfd6ec8a89e1c9fdcf4e57237a614869"
+    },
+    {
+      "src": "logs/20250920_200450_00_train_variants.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_200450_00_train_variants.log",
+      "size": 2048986,
+      "sha256": "111b822589b7c7494d702990cc3f16a198fb0f4fe2a75a07b21ed26bb6385adb"
+    },
+    {
+      "src": "logs/20250920_205433_20_sweep.log",
+      "dst": "/kaggle/working/review_bundle_JBI-Mental-Health/logs/20250920_205433_20_sweep.log",
+      "size": 11426,
+      "sha256": "f77811a5df77357298fdd70d8c7b013df29dd3e9f38c3db5ed092b5e72fc37e1"
+    }
+  ]
+}

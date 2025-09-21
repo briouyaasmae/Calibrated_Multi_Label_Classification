@@ -1,0 +1,207 @@
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.15 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.15, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.830 | PPV=0.879 | WilsonLB=0.851 | Recall=0.683 | Coverage=0.192 | CalibGap=0.052 | FP/1k=23.179
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.879 | WilsonLB=0.852 | Recall=0.720 | Coverage=0.210 | CalibGap=0.045 | FP/1k=25.386
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : FAIL
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : FAIL
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.15 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.15, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.900 | PPV=0.912 | WilsonLB=0.883 | Recall=0.554 | Coverage=0.150 | CalibGap=0.036 | FP/1k=13.245
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.939 | WilsonLB=0.914 | Recall=0.534 | Coverage=0.146 | CalibGap=0.009 | FP/1k=8.830
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.1 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.10, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.845 | PPV=0.888 | WilsonLB=0.853 | Recall=0.674 | Coverage=0.188 | CalibGap=0.045 | FP/1k=20.971
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.898 | WilsonLB=0.865 | Recall=0.685 | Coverage=0.195 | CalibGap=0.032 | FP/1k=19.868
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.1 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.10, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.900 | PPV=0.912 | WilsonLB=0.875 | Recall=0.554 | Coverage=0.150 | CalibGap=0.036 | FP/1k=13.245
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.939 | WilsonLB=0.907 | Recall=0.534 | Coverage=0.146 | CalibGap=0.009 | FP/1k=8.830
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.05 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.05, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.885 | PPV=0.899 | WilsonLB=0.850 | Recall=0.594 | Coverage=0.163 | CalibGap=0.045 | FP/1k=16.556
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.938 | WilsonLB=0.897 | Recall=0.591 | Coverage=0.161 | CalibGap=0.005 | FP/1k=9.934
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : FAIL
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : FAIL
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.85 --alpha 0.05 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.05, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.900 | PPV=0.912 | WilsonLB=0.863 | Recall=0.554 | Coverage=0.150 | CalibGap=0.036 | FP/1k=13.245
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.939 | WilsonLB=0.896 | Recall=0.534 | Coverage=0.146 | CalibGap=0.009 | FP/1k=8.830
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.15 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.15, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.940 | PPV=0.941 | WilsonLB=0.909 | Recall=0.357 | Coverage=0.094 | CalibGap=0.023 | FP/1k=5.519
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.966 | WilsonLB=0.940 | Recall=0.371 | Coverage=0.098 | CalibGap=0.004 | FP/1k=3.311
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.15 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.15, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.940 | PPV=0.941 | WilsonLB=0.909 | Recall=0.357 | Coverage=0.094 | CalibGap=0.023 | FP/1k=5.519
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.966 | WilsonLB=0.940 | Recall=0.371 | Coverage=0.098 | CalibGap=0.004 | FP/1k=3.311
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.1 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.10, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.945 | PPV=0.949 | WilsonLB=0.908 | Recall=0.335 | Coverage=0.087 | CalibGap=0.016 | FP/1k=4.415
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.976 | WilsonLB=0.943 | Recall=0.349 | Coverage=0.092 | CalibGap=0.012 | FP/1k=2.208
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.1 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.10, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.942 | PPV=0.952 | WilsonLB=0.912 | Recall=0.353 | Coverage=0.092 | CalibGap=0.012 | FP/1k=4.415
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.966 | WilsonLB=0.931 | Recall=0.366 | Coverage=0.097 | CalibGap=0.003 | FP/1k=3.311
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.05 --criterion wilson --grid 0.30:0.99:0.005 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.05, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.955 | PPV=0.968 | WilsonLB=0.907 | Recall=0.268 | Coverage=0.068 | CalibGap=0.002 | FP/1k=2.208
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.968 | WilsonLB=0.907 | Recall=0.259 | Coverage=0.068 | CalibGap=0.001 | FP/1k=2.208
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[RUN] /usr/bin/python3 /kaggle/working/optimize_primary_threshold.py --run_dir runs/depressionemo/jbi_eval_plus/safety_bh --primary_label suicide_intent --target_ppv 0.9 --alpha 0.05 --criterion wilson --grid 0.90:0.97:0.001 --min_recall 0.2 --min_cov 0.05 --max_calib_gap 0.08 --safety_labels suicide_intent --fdr_method bh
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.90  (alpha_one_sided=0.05, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.954 | PPV=0.969 | WilsonLB=0.910 | Recall=0.277 | Coverage=0.071 | CalibGap=0.000 | FP/1k=2.208
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.968 | WilsonLB=0.909 | Recall=0.263 | Coverage=0.070 | CalibGap=0.000 | FP/1k=2.208
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS
+
+[DONE] Wrote summaries to:
+ - sweep_results/suicide_intent/sweep_summary.json
+Artifacts per run are under: sweep_results/suicide_intent

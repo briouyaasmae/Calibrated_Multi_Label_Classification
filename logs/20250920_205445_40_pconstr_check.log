@@ -1,0 +1,4 @@
+=== Calibrated Safety + p-value Retune ===
+Chosen thr (VAL): 0.801
+VAL:  PPV=0.885  WilsonLB=0.855  Recall=0.585  Coverage=0.163  CalibGap=0.023  TP=131  PredPos=148  p=0.1383
+TEST: PPV=0.907  WilsonLB=0.881  Recall=0.672  Coverage=0.190  CalibGap=0.015  TP=156  PredPos=172

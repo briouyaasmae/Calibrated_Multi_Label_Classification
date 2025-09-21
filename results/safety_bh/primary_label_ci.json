@@ -1,0 +1,13 @@
+{
+  "label": "suicide_intent",
+  "threshold_at_test": 0.6171185970306396,
+  "precision_point": 0.7831325301204819,
+  "wilson_lower": 0.7478658908264127,
+  "bootstrap_point": 0.7831325301204819,
+  "bootstrap_ci95": [
+    0.733056054171592,
+    0.831967787114846
+  ],
+  "bayes_beta_lower": 0.7537932057782866,
+  "alpha": 0.15
+}

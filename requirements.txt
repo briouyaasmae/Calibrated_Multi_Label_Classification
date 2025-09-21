@@ -1,0 +1,11 @@
+python>=3.9
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+tqdm
+statsmodels
+torch
+transformers

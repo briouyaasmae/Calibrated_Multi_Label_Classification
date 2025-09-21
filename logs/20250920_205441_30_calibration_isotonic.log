@@ -1,0 +1,41 @@
+=== Post-hoc Calibration Analysis ===
+{
+  "run_dir": "runs/depressionemo/jbi_eval_plus/safety_bh",
+  "method": "isotonic",
+  "cv_folds": 5,
+  "target_precision": 0.85,
+  "alpha": 0.1,
+  "retune_thresholds": false,
+  "retune_safety_only": false,
+  "safety_list_file": null
+}
+Loaded: 8 labels, VAL=906, TEST=906
+Calibrating 8 labels using isotonic with 5-fold CV...
+  Label 0: Brier 0.1252 -> 0.1169 (Δ=-0.0083)
+  Label 1: Brier 0.1497 -> 0.1100 (Δ=-0.0396)
+  Label 2: Brier 0.1290 -> 0.1153 (Δ=-0.0137)
+  Label 3: Brier 0.1147 -> 0.1123 (Δ=-0.0024)
+  Label 4: Brier 0.1096 -> 0.1067 (Δ=-0.0030)
+  Label 5: Brier 0.1049 -> 0.1058 (Δ=+0.0009)
+  Label 6: Brier 0.0868 -> 0.0673 (Δ=-0.0195)
+  Label 7: Brier 0.1375 -> 0.1303 (Δ=-0.0072)
+
+Evaluating calibration quality...
+
+Evaluating safety metrics...
+[OK] wrote runs/depressionemo/jbi_eval_plus/safety_bh/calibration_evaluation.csv
+[OK] wrote runs/depressionemo/jbi_eval_plus/safety_bh/safety_calibrated.csv
+[OK] saved calibrated probabilities
+
+Generating calibration plots...
+
+=== SUICIDE_INTENT SUMMARY (Calibrated) ===
+TEST Precision: 0.847
+TEST Wilson LB: 0.812
+TEST Calibration Gap: 0.018
+Meets Safety Target: False
+Coverage: 0.231
+Recall: 0.763
+
+=== Calibration Complete ===
+Outputs saved under: runs/depressionemo/jbi_eval_plus/safety_bh

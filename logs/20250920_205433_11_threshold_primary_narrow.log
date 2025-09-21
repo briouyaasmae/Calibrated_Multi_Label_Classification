@@ -1,0 +1,15 @@
+=== Safety-Aware Deployment Checklist ===
+Run Dir            : runs/depressionemo/jbi_eval_plus/safety_bh
+Primary Label      : suicide_intent
+Target PPV         : 0.85  (alpha_one_sided=0.10, criterion=wilson)
+
+--- Recommended Threshold (VAL) ---
+thr=0.900 | PPV=0.912 | WilsonLB=0.875 | Recall=0.554 | Coverage=0.150 | CalibGap=0.036 | FP/1k=13.245
+
+--- TEST at Recommended Threshold ---
+PPV(point)=0.939 | WilsonLB=0.907 | Recall=0.534 | Coverage=0.146 | CalibGap=0.009 | FP/1k=8.830
+
+FDR Method/Labels  : bh / suicide_intent
+VAL FDR Overall    : PASS
+FDR Evaluated on  : suicide_intent
+OVERALL DECISION   : PASS

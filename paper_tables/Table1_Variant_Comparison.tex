@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Performance comparison across model variants on the test set.}
+\label{tab:variant_comparison}
+\begin{tabular}{lllllll}
+\toprule
+Variant & Micro-F1 & Macro-F1 & Brier Score & ECE (10 bins) & OP Precision & Calibration Gap \\
+\midrule
+Base & 0.822 & 0.792 & 0.123 & 0.082 & 0.788 & 0.067 \\
+No Graph & 0.823 & 0.791 & 0.123 & 0.080 & 0.800 & 0.063 \\
+No Asl & 0.821 & 0.782 & 0.122 & 0.058 & 0.806 & 0.088 \\
+No F1 Ft & 0.825 & 0.794 & 0.121 & 0.085 & 0.792 & 0.030 \\
+No Headtail & 0.824 & 0.792 & 0.123 & 0.079 & 0.789 & 0.064 \\
+Safety Bh & 0.825 & 0.790 & 0.123 & 0.082 & 0.800 & 0.062 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,9 @@
+Emotion Label,Support,Precision,Recall,F1-Score
+Anger,906,0.730,0.809,0.768
+Brain Dysfunction,906,0.574,0.520,0.546
+Emptiness,906,0.785,0.792,0.788
+Hopelessness,906,0.861,0.893,0.877
+Loneliness,906,0.792,0.881,0.834
+Sadness,906,0.870,0.934,0.901
+Suicide Intent,906,0.783,0.841,0.811
+Worthlessness,906,0.763,0.839,0.799
